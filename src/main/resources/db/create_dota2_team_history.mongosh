@@ -1,0 +1,53 @@
+db.dota2_team_history.insertOne(
+    {
+       "name":"Artour Babaev",
+       "playerName":"Arteezy",
+       "nationality":[
+          "Canada",
+          " Uzbekistan"
+       ],
+       "currentTeam":"Evil Geniuses",
+       "teamHistory":[
+          {
+             "teamName":"Kaipi",
+             "fromDate":"2013-04-29",
+             "toDate":"2013-08-15"
+          },
+          {
+             "teamName":"Take Five",
+             "fromDate":"2013-09-29",
+             "toDate":"2013-10-08"
+          },
+          {
+             "teamName":"S A D B O Y S",
+             "fromDate":"2014-01-31",
+             "toDate":"2014-02-21"
+          },
+          {
+             "teamName":"Evil Geniuses",
+             "fromDate":"2014-02-21",
+             "toDate":"2015-01-06"
+          },
+          {
+             "teamName":"Team Secret",
+             "fromDate":"2015-01-06",
+             "toDate":"2015-08-14"
+          },
+          {
+             "teamName":"Evil Geniuses",
+             "fromDate":"2015-08-14",
+             "toDate":"2016-03-22"
+          },
+          {
+             "teamName":"Team Secret",
+             "fromDate":"2016-03-22",
+             "toDate":"2016-08-27"
+          },
+          {
+             "teamName":"Evil Geniuses",
+             "fromDate":"2016-09-15",
+             "toDate":"Present"
+          }
+       ]
+    }
+)
